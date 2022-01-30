@@ -87,11 +87,11 @@ ul {
 }
 .title-group {
     font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
+    color: var(--link-color);
 }
 .ul.speacial > li {
     color: var(--link-color);
@@ -144,11 +144,12 @@ p.text-special {
     background-color: var(--accent-color);
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
 }
-.title-portfolio {
+.text-portfolio {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
+    color: var(--text-block-color);
 }
