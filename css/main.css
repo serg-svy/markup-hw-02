@@ -1,0 +1,93 @@
+:root {
+    --text-color: #ffffff;
+    --background-color: #ffffff;
+    --accent-color: #2196f3;
+    --link-color: #212121;
+    --background-block: #2f303a;
+    --text-block-color: #757575;
+}
+
+/* белый #FFFFFF */
+body {
+    background-color: var(--background-color);
+    font-family: Roboto, sans-serif;
+}
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-header {
+    color: #000000;
+}
+.logo-footer {
+    color: var(--text-color);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+}
+ul {
+    list-style: none;
+}
+.menu-nav {
+    color: var(--link-color);
+}
+.link:hover {
+    color: var(--accent-color);
+}
+.link:focus {
+    color: var(--accent-color);
+}
+.contact {
+    color: #757575;
+}
+.portfolio-menu > button {
+    color: var(--link-color);
+    background-color: #f5f4fa;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.portfolio-menu > button:hover {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+.block-footer {
+    background-color: var(--background-block);
+}
+.contact-footer {
+    font-style: normal;
+    color: var(--text-color);
+}
+.link-contact {
+    opacity: 0.6;
+}
+h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+}
