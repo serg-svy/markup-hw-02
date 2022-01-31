@@ -82,7 +82,7 @@ ul {
     letter-spacing: 0.03em;
     color: var(--link-color);
 }
-.title-section {
+.title-portfolio {
     display: none;
 }
 .title-group {
@@ -112,7 +112,10 @@ ul {
     color: var(--text-color);
 }
 .link-contact {
-    opacity: 0.6;
+    color: rgba(255, 255, 255, 0.6);
+}
+.link-contact:hover {
+    color: var(--accent-color);
 }
 .current {
     color: var(--accent-color);
@@ -129,11 +132,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
-    text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    padding-left: 22px;
-    padding-right: 22px;
 }
 .portfolio-button:hover {
     color: var(--text-color);
