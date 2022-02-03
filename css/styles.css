@@ -36,14 +36,14 @@ a {
 ul {
     list-style: none;
 }
-.hero {
+.hero-title {
     color: var(--text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
 }
 .hero-button {
     color: var(--text-color);
@@ -58,28 +58,25 @@ ul {
     border: none;
     cursor: pointer;
 }
-.hero-block {
+.hero {
     background-color: var(--background-block);
 }
 .menu-nav {
     color: var(--link-color);
 }
-.link:hover {
-    color: var(--accent-color);
-}
-.link:focus {
-    color: var(--accent-color);
-}
+.link:hover,
+.link:focus,
 .link:visited {
     color: var(--accent-color);
 }
-.contact {
+.contacts {
     color: #757575;
 }
 .caption {
     font-size: 36px;
     line-height: calc(42 / 36);
     letter-spacing: 0.03em;
+    text-align: center;
     color: var(--link-color);
 }
 .title-portfolio {
@@ -107,14 +104,14 @@ ul {
 .block-footer {
     background-color: var(--background-block);
 }
-.contact-footer {
+.contacts-footer {
     font-style: normal;
     color: var(--text-color);
 }
-.link-contact {
+.link-contacts {
     color: rgba(255, 255, 255, 0.6);
 }
-.link-contact:hover {
+.link-contacts:hover {
     color: var(--accent-color);
 }
 .current {
